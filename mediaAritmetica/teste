@@ -1,0 +1,146 @@
+RELATÓRIO ATIVIDADE DE TESTE
+
+Teste funcional realizado por Eduardo e Sérgio do programa Média Aritmética feito por Eloisa e Paulo. 
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+TESTE 1
+CASO DE TESTE (descrição): 
+
+Verificar a função (CalcularEExibirResultados)
+----------------------------------------------------
+ENTRADA(S):
+
+valor1 = 15
+valor2 = -6
+valor3 = -8
+valor4 = 6
+valor5 = 1
+valor6 = -1	
+----------------------------------------------------
+RESULTADO ESPERADO (descrição):
+
+Média Aritmética: 1.16
+Valores Positivos: 3
+Valores Negativos: 3
+Percentual de Valores Positivos: 50.00%
+Percentual de Valores Negativos: 50.00%
+----------------------------------------------------
+SAÍDAS (resultado ocorrido):
+
+Média Aritmética: 1.16
+Quantidade de Valores Positivos: 3
+Quantidade de Valores Negativos: 3
+Percentual de Valores Positivos: 50.00%
+Percentual de Valores Negativos: 50.00%
+----------------------------------------------------
+ERROS:
+
+Não.
+----------------------------------------------------
+DESCRIÇÃO DO ERROS: 
+
+Não foram encontrados erros no teste.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+TESTE 2
+CASO DE TESTE (descrição): 
+
+Verificar a função (CalcularEExibirResultados)
+----------------------------------------------------
+ENTRADA(S):
+
+valor1 = 15
+valor2 = -6
+valor3 = x
+valor4 = 5
+valor5 = 3
+----------------------------------------------------
+RESULTADO ESPERADO (descrição): 
+
+Valor3: x = Digite um número valido
+Média Aritmética: 4.25
+Valores Positivos: 3
+Valores Negativos: 1
+Percentual de Valores Positivos: 75.00%
+Percentual de Valores Negativos: 25.00%
+----------------------------------------------------
+SAÍDAS (resultado ocorrido):
+
+Digite um valor (ou 'q' para calcular): x => Valor inválido. Por favor, digite um número válido.
+Média Aritmética: 4.25
+Quantidade de Valores Positivos: 3
+Quantidade de Valores Negativos: 1
+Percentual de Valores Positivos: 75.00%
+Percentual de Valores Negativos: 25.00%
+----------------------------------------------------
+ERROS:
+
+Não.
+----------------------------------------------------
+DESCRIÇÃO DO ERROS: 
+
+Não foram encontrados erros no teste.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+TESTE 3
+CASO DE TESTE (descrição): 
+
+Verificar a função (CalcularEExibirResultados)
+----------------------------------------------------
+ENTRADA(S):
+
+valor1 = 15
+valor2 = 0
+valor3 = -5
+valor4 = -2
+----------------------------------------------------
+RESULTADO ESPERADO (descrição):
+
+Média Aritmética: 2
+Valores Positivos: 1
+Valores Negativos: 2
+Percentual de Valores Positivos: 25.00%
+Percentual de Valores Negativos: 50.00%
+----------------------------------------------------
+SAÍDAS (resultado ocorrido):
+
+Média Aritmética: 2
+Quantidade de Valores Positivos: 1
+Quantidade de Valores Negativos: 2
+Percentual de Valores Positivos: 25.00%
+Percentual de Valores Negativos: 50.00%
+----------------------------------------------------
+ERROS:
+
+Não
+----------------------------------------------------
+DESCRIÇÃO DO ERROS: 
+
+Não foram encontrados erros no teste.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+TESTE 4
+CASO DE TESTE (descrição): 
+
+Verificar a função (CalcularEExibirResultados)
+----------------------------------------------------
+ENTRADA(S):
+
+Valor1 = “”
+----------------------------------------------------
+RESULTADO ESPERADO (descrição): 
+
+“Nenhum valor inserido”
+----------------------------------------------------
+SAÍDAS (resultado ocorrido):
+
+Nenhum valor foi lido.
+----------------------------------------------------
+ERROS:
+
+Não
+----------------------------------------------------
+DESCRIÇÃO DO ERROS: 
+
+Não foram encontrados erros no teste.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

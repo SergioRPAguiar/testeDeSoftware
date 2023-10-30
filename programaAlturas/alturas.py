@@ -29,10 +29,11 @@ if num_pessoas > 0:
     percentual_maior = (maior_altura / media_alturas) * 100
     
     # Exibe os resultados
-    print(f"Menor altura: {menor_altura} cm")
-    print(f"Maior altura: {maior_altura} cm")
+    print(f"Menor altura: {menor_altura} cm ")
+    print(f"Maior altura: {maior_altura} cm ")
     print(f"Média das alturas: {media_alturas:.2f} cm")
     print(f"Percentual da menor altura em relação à média: {percentual_menor:.2f}%")
     print(f"Percentual da maior altura em relação à média: {percentual_maior:.2f}%")
 else:
     print("Nenhuma altura foi inserida.")
+
